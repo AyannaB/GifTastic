@@ -33,7 +33,7 @@ function displayGifs() {
   var rap = $(this).attr("data-name");
 
   var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
-      rap + "&api_key=TcbGhYWRBlW2REvL6nD4Co0xKVOoIHZN&limit=10";
+      rap + "&api_key=V1yGVBB0ZKuBKUQHUSCmJ46c5bYt1JvI";
 
   $.ajax({ 
     url: queryURL, 
