@@ -24,7 +24,7 @@ $("#add-animal").on("click", function (event) {
   var animal = $("#animal-input").val().trim();
 
   animals.push(animal);
-
+  
   renderButtons();
 });
 
